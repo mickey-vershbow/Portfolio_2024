@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MickeyDev Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- DevIcon -->
+    <link rel="stylesheet" href="devicon.min.css" />
+    <!-- CSS StyleSheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="https://www.mickeyvershbow-code.com">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.WGoXm_P8n2Amemefhi3DzgHaDt%26pid%3DApi&f=1"
+            alt=""
+          />
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Mickey Vershbow</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Full-Stack Web Developer, Musician, Educator
+      </p>
+      <img
+        src="img/mickey/headshot-smiling-profile copy.jpg"
+        alt="a picture of Mickey smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Data Management + Development</h3>
+          <p>
+            I am passionate about writing concise, efficient, testable code
+            using best software development practices. As a musician, I learned
+            to utilize both creativity and logic to deliver results that met the
+            requirements and standards of the team I was hired by with
+            professionalism, enthusiasm, and integrity.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Communication & Collaboration</h3>
+          <p>
+            With my extensive background in music and education, I am accustomed
+            to collaborating with a team to achieve measurable outcomes - on a
+            deadline. I am practiced at integrating myself into a wide range of
+            working environments and communicating across different backgrounds
+            and disciplines.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Learning and Growth</h3>
+          <p>
+            My experience as a professional musician and educator taught me how
+            to learn efficiently and apply that knowledge in a wide range of
+            concepts with flexibility, creativity, and precision. I'm
+            continuously inspired to share knowledge with others and absorb new
+            information about my craft at every possible opportunity.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+
+      <!-- / MY WORK BUTTON  -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- SKILLS SECTION -->
+
+    <section class="my-skills" id="skills">
+      <h2 class="section__title section__title--skills">TECHNOLOGIES</h2>
+      <hr id="skills-line_break" />
+      <h3 class="section__subtitle section__subtitle--skills">
+        Languages and frameworks I've worked with:
+      </h3>
+
+      <!-- ICONS -->
+      <ul class="icons-list">
+        <li>
+          <i class="fab fa-js-square fa-4x"></i>
+          <h3>Javascript</h3>
+        </li>
+
+        <li>
+          <i class="fab fa-react fa-4x"></i>
+          <h3>React</h3>
+        </li>
+
+        <li>
+          <i class="fab fa-etsy fa-4x"></i>
+          <h3>Express</h3>
+        </li>
+
+        <li>
+          <i class="fab fa-node fa-4x"></i>
+          <h3>Node.js</h3>
+        </li>
+
+        <li>
+          <i class="fab fa-envira fa-4x"></i>
+          <h3>MongoDB</h3>
+        </li>
+
+        <li>
+          <i class="far fa-gem fa-4x"></i>
+          <h3>Ruby</h3>
+        </li>
+
+        <li>
+          <i class="fas fa-server fa-4x"></i>
+          <h3>Rails</h3>
+        </li>
+
+        <li>
+          <i class="fas fa-database fa-4x"></i>
+          <h3>Postgres</h3>
+        </li>
+
+        <li>
+          <i class="fab fa-sass fa-4x"></i>
+          <h3>Sass</h3>
+        </li>
+      </ul>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Software Engineer, Musician, Educator
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Hi, I'm Mickey! I am a full-stack software engineer with a background
+          in music performance and education. Over the last ten years I've been
+          focused on growing my
+          <a href="https://www.mickeyvershbow.com">drum lessons studio</a> in
+          Brooklyn. As I shift my focus to working in the tech space, my aim is
+          to combine my skills in technology, communication, and education in
+          order to positively impact the world around me.
+        </p>
+
+        <p>
+          A creative and curious team player by nature, as well as a
+          highly-trained performer and educator, I always consider the needs of
+          my audience, and am relentlessly driven to create well-rounded,
+          streamlined products that are not only enjoyable, but meaningful to
+          use.
+          <!-- I'm a
+          member of Artists Who Code, a volunteer organization which advocates
+          for creative professionals with non-traditional backgrounds in the
+          tech industry, -->
+          In addition to studying performance at Berklee College of Music, I am
+          a graduate of The Evergreen State College (BA in Music Education) and
+          the Software Engineering Immersive at General Assembly.
+        </p>
+
+        <h4 class="resume-link">
+          Click
+          <a
+            href="https://docs.google.com/document/d/1cfKJ_rb9hHr3QmwUuYwFVfucXo4SVOaMiMy8WpnUXGs/export?format=pdf"
+            target="blank"
+            >here</a
+          >
+          for my resume.
+        </h4>
+      </div>
+
+      <img
+        src="img/mickey/alt-smiling1.jpg"
+        alt="mickey smiling"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Books on Rails -->
+        <div class="image" id="portfolio__img--capstone">
+          <a
+            href="https://booksonrails1.netlify.app/"
+            target="blank"
+            class="portfolio__item"
+          >
+            <img
+              src="img/mickey/nyt_logo_og1.jpeg"
+              alt=""
+              target="blank"
+              class="portfolio__img"
+            />
+            <div class="image__overlay">
+              <div class="image__title">Books on Rails</div>
+              <p class="image__description">
+                A web application built with <strong>Ruby on Rails</strong>,
+                <strong>PostgreSQL</strong>, and <strong>React</strong> that
+                allows users to explore archival data from
+                <strong>The New York Times Books API</strong> and save their
+                favorite items. This is my most advanced work to date.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Vinylmatic -->
+        <div class="image image-capstone">
+          <a
+            href="https://vinylmatic.netlify.app/"
+            class="portfolio__item"
+            target="blank"
+          >
+            <img
+              src="img/mickey/vinyl_square.jpeg"
+              alt=""
+              class="portfolio__img"
+            />
+            <div class="image__overlay">
+              <div class="image__title">Vinylmatic</div>
+              <p class="image__description">
+                A <strong>full-stack MERN web application</strong> with
+                <strong>JWT authentication</strong> that allows users to
+                catalogue their vinyl collection. Custom color themes and highly
+                responsive styling with SCSS.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Climate Trivia -->
+        <div class="image">
+          <a
+            href="https://mickey-vershbow.github.io/climate-trivia2/"
+            class="portfolio__item"
+            target="blank"
+          >
+            <img src="img/mickey/climate1.jpg" alt="" class="portfolio__img" />
+            <div class="image__overlay">
+              <div class="image__title">Climate Trivia</div>
+              <p class="image__description">
+                A two-player trivia game built with <strong>HTML</strong>,
+                <strong>CSS</strong>, <strong>Javascript</strong>,
+                <strong>jQuery</strong>, and
+                <strong>Contentful Headless CMS</strong>.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Dogs Forever -->
+        <div class="image">
+          <a
+            href="https://houseplant7mv.herokuapp.com/"
+            class="portfolio__item"
+            target="blank"
+          >
+            <img src="img/portfolio-08.jpg" alt="" class="portfolio__img" />
+            <div class="image__overlay">
+              <div class="image__title">Dogs Forever</div>
+              <p class="image__description">
+                A <strong>Node.js + Express + MongoDB</strong> web application
+                that fetches data from the Dog Breeds API. Full CRUD + Sessions
+                user authentication.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:mickey.vershbow@gmail.com" class="footer__link"
+        >mickey.vershbow@gmail.com
+      </a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <!-- Github -->
+          <a
+            class="social-list__link"
+            href="https://www.github.com/mickey-vershbow"
+            target="blank"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <!-- LinkedIn -->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/mickey-vershbow/"
+            target="blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <!-- Squarespace -->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.mickeyvershbow.com"
+            target="blank"
+          >
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <!-- Medium -->
+          <a
+            class="social-list__link"
+            href="https://mickey-vershbow.medium.com/ruby-basics-creating-a-simple-cli-game-997bbd0a9e54"
+            target="blank"
+          >
+            <i class="fab fa-medium"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
